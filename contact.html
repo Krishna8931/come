@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    *{margin:0px;
+      padding:0px;
+      font-family: Google Sans 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style: none;
+    }
+    body{background-color:#F0F8FF;
+      font-family: 'Nunito', sans-serif;
+    }
+    header{width:100%;
+      height:100px;
+      background-color:#047BD5;
+      color:white;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:0 100px;
+    }
+    .logo img
+    {font-size:23px;
+      font-weight:Bold;
+      width:65px;
+      color:white;
+    }
+    .hamburger{display:none;}
+    .nav-bar ul{display:flex;}
+    .nav-bar ul li a{display:block;
+      color:white;
+      font-size:26px;
+      padding:10px 25px;
+      border-radius:50px;
+      transition:0.2s;
+      margin: 0 5px;
+    }
+   .nav-bar  ul li a:hover{color: black;
+      background:white;
+    }
+    .nav-bar ul li a.active{color:black;
+      background-color:white;
+    }
+        .map iframe{width:800px;
+        height:400px;
+      border:2px solid transparent;
+      border-radius:20px;
+      margin:20px 90px;
+      box-shadow:0 0 5px 2px rgba(50,50,50,0.25);
+    }
+    .about-info-container{
+      width:800px;
+      height:25vh;
+      margin:100px 90px;
+      box-shadow:0 0 5px 2px rgba(50,50,50,0.25);
+      border-radius:20px;
+      display:flex;
+      background:white;
+      color:black;
+    }
+    .about-info{ 
+      font-size:45px;
+      width:700px;
+      line-height:70px;
+      letter-spacing:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 10px;
+    }
+  .social-networks{font-size:15px;}
+    .social-networks h5{font-size:35px;
+      margin:50px 0px;
+      margin-bottom:10px;
+      line-height:55px;
+    }
+   .social-networks img{width:60px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+    margin:3px 90px;
+    
+    }
+    .social-networks img:hover{
+      border-radius:20px;
+      width:55px;
+      cursor:pointer;
+    }
+    
+    .social-networks h5 span{color:#f9004d;}
+        @media only screen and (max-width:1320px)
+    {
+        header{padding: 0 50px;}
+          .image-p p{font-weight:250;
+  text-align:center;
+  font-size:2550px;
+}
+        
+    }
+    @media only screen and (max-width:1100px)
+    {
+        header{padding: 0 30px;}
+    }
+          @media only screen and (max-width:900px)
+      {    .about-info-container{
+      width:340px;
+      height:45vh;
+      margin:100px 8px;
+      box-shadow:0 0 5px 2px rgba(50,50,50,0.25);
+      border-radius:20px;
+      display:flex;
+      background:white;
+      color:black;
+    }
+    .about-info{ 
+      font-size:20px;
+      width:600px;
+      line-height:40px;
+      letter-spacing:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0px 0px;
+    }
+  .social-networks{font-size:15px;}
+    .social-networks h5{font-size:15px;
+      margin:50px 40px;
+      margin-bottom:5px;
+      margin-right:0px;
+      line-height:25px;
+      width:150px;
+    }
+   .social-networks img{width:40px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+    margin:0px 80px;
+    
+    }
+    .social-networks img:hover{
+      width:38px;
+      cursor:pointer;
+    }
+    
+    .social-networks h5 span{color:#f9004d;}
+        @media only screen and (max-width:1320px)
+    {
+        header{padding: 0 50px;}
+          .image-p p{font-weight:250;
+  text-align:center;
+  font-size:2550px;
+}
+        
+    }
+
+        
+        
+
+        .hamburger{
+            display: block;
+            cursor: pointer;
+        }
+        .logo img{width:35px;}
+        header{height:45px;}
+.hamburger .line{
+    width: 30px;
+    height:3px;
+    background: white;
+    margin: 5px 0;
+border-radius: 100px;}
+.nav-bar{position:absolute;
+overflow:hidden;
+top: 44px;
+left: 0;
+right: 0;
+width: 100vw;
+background:#047BD5;
+transition: 0.2s;
+overflow: hidden;
+    height: 0px;}
+.nav-bar.active{
+    height:340px;}
+.nav-bar.active ul{opacity:1;}
+.nav-bar ul li a{margin-bottom:12px;}
+    .nav-bar ul{
+display: block;
+width: fit-content;
+margin: 80px auto 1000px auto;
+text-align: center;
+transition: 0.5s;
+opacity: 0;
+   
+    }
+    .map iframe{width:320px;
+      border:2px solid transparent;
+      border-radius:20px;
+      margin:20px 20px;
+      box-shadow:0 0 5px 2px rgba(50,50,50,0.25);
+    }
+    }
+    
+
+  </style>
+  <title></title>
+</head>
+
+<body>
+  <header>
+
+
+    <div class="logo"><img srcset="" src="https://i.ibb.co/4fTMLQQ/1678990641356-removebg-preview.png" alt=""></div>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="he01y.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+
+    </nav>
+
+
+  </header>
+    <main>
+      <div class="about-info-container">
+      <div class="about-info"><div class="address">Plot no:62(b)<br>Sarojini<br>Gt Road<br>New Delhi</div></div>
+      <div class="social-networks"><div class="social-h5"><h5>Follow Us On Our<span> Social Networks</span></h5></div><div class="img-social"><a href="https://instagram.com/soulxkrishna?igshid=ZDdkNTZiNTM="><img srcset=""class="img" src="https://i.ibb.co/pWFNbYB/87390.png" alt=""><br></a><a href="https://facebook.com/soulxkrishna?igshid=ZDdkNTZiNTM="><img srcset="" src="https://i.ibb.co/mRWd1HW/images.png" alt=""></a></div></div>
+      
+    </div>
+      
+      
+      
+      <div class="map">
+      
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.114789642977!2d77.21528694999999!3d28.62890200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xcdee88e47393c3f1!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1679391217153!5m2!1sen!2sin"allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe></div></main>
+  
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+      const navBar = document.querySelector('.nav-bar');
+  
+      hamburger.addEventListener('click', () =>
+      {
+        navBar.classList.toggle('active');
+      })
+      </script>
+</body>
+
+</html>
